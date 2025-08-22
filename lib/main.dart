@@ -377,31 +377,7 @@ class _DiabetesPredictorScreenState extends State<DiabetesPredictorScreen>
               _buildDialogItem(Icons.center_focus_strong, 'Keep camera steady'),
               _buildDialogItem(Icons.zoom_in, 'Fill the frame with subject'),
               _buildDialogItem(Icons.high_quality, 'Take a clear, focused shot'),
-              const SizedBox(height: 16),
-              Container(
-                padding: const EdgeInsets.all(12),
-                decoration: BoxDecoration(
-                  color: Colors.amber[50],
-                  borderRadius: BorderRadius.circular(8),
-                  border: Border.all(color: Colors.amber[200]!),
-                ),
-                child: Row(
-                  children: [
-                    Icon(Icons.warning_amber, color: Colors.amber[700], size: 20),
-                    const SizedBox(width: 8),
-                    Expanded(
-                      child: Text(
-                        'This is for educational purposes only',
-                        style: TextStyle(
-                          fontSize: 12,
-                          color: Colors.amber[800],
-                          fontWeight: FontWeight.w500,
-                        ),
-                      ),
-                    ),
-                  ],
-                ),
-              ),
+              
             ],
           ),
           actions: [
@@ -533,64 +509,9 @@ class _DiabetesPredictorScreenState extends State<DiabetesPredictorScreen>
                 ),
               ),
 
-              const SizedBox(height: 20),
+              
 
-              // Instructions Card
-              Card(
-                color: Colors.blue[50],
-                child: Padding(
-                  padding: const EdgeInsets.all(16.0),
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      Row(
-                        children: [
-                          Icon(
-                            Icons.info_outline,
-                            color: Colors.blue[700],
-                            size: 24,
-                          ),
-                          const SizedBox(width: 8),
-                          Text(
-                            'Photo Guidelines',
-                            style: TextStyle(
-                              fontSize: 18,
-                              fontWeight: FontWeight.bold,
-                              color: Colors.blue[700],
-                            ),
-                          ),
-                        ],
-                      ),
-                      const SizedBox(height: 12),
-                      _buildInstructionItem(
-                        Icons.center_focus_strong,
-                        'Take a clear, focused photo',
-                        'Ensure the image is sharp and not blurry',
-                      ),
-                      _buildInstructionItem(
-                        Icons.wb_sunny,
-                        'Use good lighting',
-                        'Avoid shadows or overly bright areas',
-                      ),
-                      _buildInstructionItem(
-                        Icons.straighten,
-                        'Hold phone steady',
-                        'Keep the camera stable for best results',
-                      ),
-                      _buildInstructionItem(
-                        Icons.zoom_in,
-                        'Fill the frame',
-                        'Make sure the subject covers most of the image',
-                      ),
-                      _buildInstructionItem(
-                        Icons.warning_amber,
-                        'Medical disclaimer',
-                        'This is for educational purposes only. Consult a healthcare professional for medical advice.',
-                      ),
-                    ],
-                  ),
-                ),
-              ),
+              
 
               const SizedBox(height: 20),
 

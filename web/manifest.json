@@ -1,11 +1,11 @@
 {
-    "name": "my_app",
-    "short_name": "my_app",
+    "name": "DiaDet",
+    "short_name": "DiaDet",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "DiaDet - AI-powered diabetes detection app using retinal image analysis.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
