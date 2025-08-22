@@ -895,7 +895,7 @@ class _DiabetesPredictorScreenState extends State<DiabetesPredictorScreen>
               ],
             ),
           );
-        }).toList(),
+        }),
 
         const SizedBox(height: 16),
 
